@@ -1,6 +1,7 @@
 # 使用前
 
 * 基于opencore 0.6.4
+* 支持macOS BigSur 11.1
 * 支持七彩虹CVN-b460i
 * 支持Intel10代CPU，UHD 630 GPU
 * 请自行更改本机序列号等信息
