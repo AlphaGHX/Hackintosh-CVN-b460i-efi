@@ -13,3 +13,8 @@
 * 有线正常
 * HDMI & DP正常
 * 睡眠能用，但是不太正常。
+
+# 感谢
+* 最好的入门教程：[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+* 中文教程：[Xjn的博客](https://blog.xjn819.com/post/opencore-guide.html)
+* 中文文档，和kexts集合下载：[OpenCore中文文档](https://oc.skk.moe/)
