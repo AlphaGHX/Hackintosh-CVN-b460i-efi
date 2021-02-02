@@ -18,4 +18,4 @@
 * 最好的入门教程：[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 * 中文教程：[Xjn的博客](https://blog.xjn819.com/post/opencore-guide.html)
 * 中文文档 & kexts集合下载：[OpenCore中文文档](https://oc.skk.moe/)
-* 镜像下载 & 中文教程 [黑果小兵]：(http://blog.daliansky.net)
+* 镜像下载 & 中文教程：[黑果小兵](http://blog.daliansky.net)
