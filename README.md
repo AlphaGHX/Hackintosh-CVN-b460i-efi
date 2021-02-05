@@ -1,10 +1,10 @@
 ## 使用前
 
-* 基于opencore 0.6.5
+* 基于opencore 0.6.6
 * 支持macOS BigSur 11.2
 * 支持七彩虹CVN-b460i
-* 支持Intel10代CPU，UHD 630 GPU, 独显未做支持！
-* 请自行更改本机序列号等信息
+* 支持Intel10代CPU，UHD 630 GPU，独显未做支持！
+* 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改
 
 ## 目前正常功能
 
@@ -15,6 +15,7 @@
 * 睡眠能用，但是不太正常。
 
 ## 感谢
+
 * 最好的入门教程：[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 * 中文教程：[Xjn的博客](https://blog.xjn819.com/post/opencore-guide.html)
 * 中文文档 & kexts集合下载：[OpenCore中文文档](https://oc.skk.moe/)
