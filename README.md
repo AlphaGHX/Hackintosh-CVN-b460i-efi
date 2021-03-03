@@ -6,8 +6,8 @@
 
 ## 使用前
 
-* 基于opencore 0.6.6
-* 支持macOS BigSur 11.2
+* 基于opencore 0.6.7
+* 支持macOS BigSur 11.2.2
 * 支持七彩虹CVN-b460i
 * 支持Intel10代CPU，UHD 630 GPU，独显未做支持！
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改。
