@@ -1,13 +1,14 @@
 ## 更新日志
 
+* 2021/4/6 OC更新至0.6.8，更新了部分kext
 * 2021/3/3 OC更新至0.6.7，更新了部分kext
 * 2021/2/9 修复USB3接口只能用USB2的速率
 * 2021/2/5 OC更新至0.6.6，修复CPU睿频（我的i5 10400最高功率能跑到85W，全核心睿频到4GHZ）
 
 ## 使用前
 
-* 基于opencore 0.6.6
-* 支持macOS BigSur 11.2
+* 基于opencore 0.6.8
+* 支持macOS BigSur 11.2.3
 * 支持七彩虹CVN-b460i
 * 支持Intel10代CPU，UHD 630 GPU，独显未做支持！
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改。
@@ -15,9 +16,9 @@
 ## BIOS设置
 
 * 开启XMP内存超频
-* 高级模式->高级->CSM设置->关闭CMS
+* 高级模式->高级->CSM设置->关闭CSM
 * 高级模式->引导->关闭BIOS写保护
-* 值得注意的是：在安装的时侯，可能出现下图所示的禁止图标，如果出现，请等待5分钟左右。本人第一次安装的时侯也出现了此问题，等了一段时间（具体忘记了）就成功进入安装界面了，之后也不会出现此问题。
+* 值得注意的是：在安装的时侯，可能出现下图所示的禁止图标，如果出现，请等待5分钟左右。如果还不行，尝试更换固件。
 <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Big-Sur/macos-big-sur-startup-screen-prohibitory-sign.jpg" width="70%">
 
 ## 目前正常功能
