@@ -39,6 +39,11 @@
 ![截屏2021-02-06 上午11.57.46.png](https://i.loli.net/2021/02/06/k1BS3OVqmHDbg4z.png)
 ![截屏2021-02-06 下午12.15.25.png](https://i.loli.net/2021/02/06/aKJEW3IYgU6btQu.png)
 
+## 排错
+
+* 若出现问题，请开-v截图然后进[黑果小兵TG群](https://t.me/macos_installer)询问（里面有经验丰富的大佬，询问时注意礼貌。）
+<img width="979" alt="2FE88917-4440-481F-B19F-3EF17A1B7917" src="https://user-images.githubusercontent.com/61853980/110348750-efa01080-806c-11eb-8151-240bacb02abe.png">
+
 ## 感谢
 
 * 最好的入门教程：[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
