@@ -13,7 +13,7 @@
 * 支持七彩虹CVN-b460i
 * 支持Intel10代CPU，UHD 630 GPU，独显未做支持！
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改，重点是下面三个。
-![截屏2021-07-18 上午12.50.37.png](https://i.loli.net/2021/07/18/who2B4JqvkiO6nE.png)
+![68747470733a2f2f692e6c6f6c692e6e65742f323032312f30372f31382f77686f3242344a71766b694f366e452e706e67.png](https://i.loli.net/2021/07/18/nydmeVr9BMOXFNv.png)
 
 ## BIOS设置
 
