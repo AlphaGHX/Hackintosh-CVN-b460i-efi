@@ -14,6 +14,7 @@
 * 支持Intel10代CPU，UHD 630 GPU，独显未做支持！
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改，重点是下面三个。
 ![68747470733a2f2f692e6c6f6c692e6e65742f323032312f30372f31382f77686f3242344a71766b694f366e452e706e67.png](https://i.loli.net/2021/07/18/nydmeVr9BMOXFNv.png)
+* 黑苹果不稳定，重要文件勤做备份！！！
 
 ## BIOS设置
 
@@ -34,7 +35,7 @@
 * WIFI正常（Intel AX200）
 * 蓝牙正常
 * 有线正常
-* HDMI & DP正常
+* HDMI & DP正常（尽量只使用DP）
 * USB3正常
 ![截屏2021-07-18 下午1.08.05.png](https://i.loli.net/2021/07/18/dSLTXrFA6nYlWc3.png)
 * 核显硬件加速正常
