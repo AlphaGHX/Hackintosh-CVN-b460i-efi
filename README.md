@@ -9,9 +9,9 @@
 ## 使用前
 
 * 基于opencore 0.7.0
-* 支持macOS BigSur 11.4
+* 支持到macOS BigSur 11.6, Monterey未作测试, 工作机谨慎升级.
 * 支持七彩虹CVN-b460i
-* 支持Intel10代CPU，UHD 630 GPU，独显未做支持！
+* 支持Intel 10代CPU，UHD 630 GPU，独显未做支持！
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改，重点是下面三个。
 ![68747470733a2f2f692e6c6f6c692e6e65742f323032312f30372f31382f77686f3242344a71766b694f366e452e706e67.png](https://i.loli.net/2021/07/18/nydmeVr9BMOXFNv.png)
 * 黑苹果不稳定，重要文件勤做备份！！！
