@@ -137,6 +137,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<true/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -221,6 +223,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
@@ -257,7 +261,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>AirportItlwm.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -275,7 +279,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>IntelBluetoothFirmware.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -293,7 +297,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>IntelBluetoothInjector.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -311,7 +315,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Lilu.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -329,7 +333,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>NVMeFix.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -347,7 +351,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>RealtekRTL8111.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -365,7 +369,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>USBPorts.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -383,7 +387,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>VirtualSMC.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -401,7 +405,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>VoodooPS2Controller.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -419,7 +423,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>WhateverGreen.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -437,7 +441,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>XHCI-unsupported.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -455,7 +459,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>VoodooInput.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -473,7 +477,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>VoodooPS2Keyboard.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -491,7 +495,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>VoodooPS2Mouse.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -509,7 +513,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>VoodooPS2Trackpad.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -527,7 +531,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>AppleALC.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -545,7 +549,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>AppleALCU.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -563,7 +567,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>SMCProcessor.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -581,7 +585,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>SMCSuperIO.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -909,10 +913,12 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
-			<string>x86_64</string>
+			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -1265,6 +1271,26 @@
 				<key>Auxiliary</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>TpmInfo.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>TpmInfo.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>TpmInfo.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -1285,6 +1311,8 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
@@ -1295,8 +1323,6 @@
 				<data></data>
 				<key>run-efi-updater</key>
 				<string>No</string>
-				<key>ForceDisplayRotationInEFI</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1361,10 +1387,10 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string>0000</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1414,8 +1440,10 @@
 			<string>Builtin</string>
 			<key>CustomDelays</key>
 			<false/>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>KeyInitialDelay</key>
-			<integer>0</integer>
+			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
 			<key>PointerSpeedDiv</key>
@@ -1448,8 +1476,26 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>OpenHfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
+			<dict>
+				<key>Comment</key>
+				<string>OpenHfsPlus.efi</string>
+				<key>Path</key>
+				<string>OpenHfsPlus.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>OpenRuntime.efi</string>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1548,6 +1594,8 @@
 			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForceOcWriteFlash</key>
+			<false/>
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
@@ -1558,6 +1606,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
