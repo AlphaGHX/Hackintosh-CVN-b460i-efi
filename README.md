@@ -1,5 +1,6 @@
 ## 更新日志
 
+* 2022/1/6 更新了部分kext，支持Monterey。
 * 2021/11/10 OC更新至0.7.5，更新了部分kext。
 * 2021/7/18 OC更新至0.7.0，已经完全定制了USB，现在在macOS11.3+中也能使用USB3的速率。
 * 2021/4/6 OC更新至0.6.8，更新了部分kext。
@@ -10,11 +11,12 @@
 ## 使用前
 
 * 基于opencore 0.7.5
-* 支持到macOS BigSur 11.6.1, Monterey未作测试, 工作机谨慎升级。如果要升级请更换AirportItlwm为Monterey版本。
+* 支持到macOS Monterey 12.1
 * 支持七彩虹CVN-b460i
 * 支持Intel 10代CPU，UHD 630 GPU，独显未做支持。
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改，重点是下面三个。
 ![68747470733a2f2f692e6c6f6c692e6e65742f323032312f30372f31382f77686f3242344a71766b694f366e452e706e67.png](https://i.loli.net/2021/07/18/nydmeVr9BMOXFNv.png)
+* 注意！本次更新把机型换成了iMac20,1，如果更新引导请同时更换三码。
 * 黑苹果不稳定，重要文件勤做备份！！！
 
 ## BIOS设置
@@ -45,13 +47,13 @@
 ## 目前问题功能
 
 * 隔空投递不正常，这个可能要等AirportItlwm的更新，我们现在能不用免驱卡正常上网已经是不容易了！
-* 睡眠唤醒正常，但是换新后某些应用卡死（vscode，hackintool等），更新至最新BIOS依旧不行。请在设置里设置只关闭屏幕。我技术能力有限，一直未能解决。（隔壁华擎板子就没这问题，不差100块钱的就去隔壁吧。）
+* 睡眠唤醒正常，但是换新后某些应用卡死（vscode，hackintool等），更新至最新BIOS依旧不行。请在设置里设置只关闭屏幕。我技术能力有限，一直未能解决。（隔壁华擎板子没这问题，估摸着是七彩虹BIOS的锅）
 ![截屏2021-07-18 下午1.08.19.png](https://i.loli.net/2021/07/18/lFJLQ1fikusYEPt.png)
 
 ## 附图
 
-![截屏2021-02-06 上午11.57.46.png](https://i.loli.net/2021/02/06/k1BS3OVqmHDbg4z.png)
-![截屏2021-02-06 下午12.15.25.png](https://i.loli.net/2021/02/06/aKJEW3IYgU6btQu.png)
+![截屏2022-01-06 下午10.46.26.png](https://s2.loli.net/2022/01/06/4dnVRYKHUrXO78B.png)
+![截屏2022-01-06 下午10.48.35.png](https://s2.loli.net/2022/01/06/N18klaRgvEQ6xt4.png)
 
 ## 排错
 
