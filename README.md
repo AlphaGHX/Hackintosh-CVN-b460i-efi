@@ -56,7 +56,7 @@
 
 ## 排错
 
-* 若出现问题，请开-v截图然后进[黑果小兵TG群](https://t.me/macos_installer)询问（里面有经验丰富的大佬，询问时注意礼貌。）
+* 若出现问题，请开-v截图然后找我[Alpha的Telegram](https://t.me/Alpha_TL)，虽然我也基本玩不明白黑苹果，但是还是会尝试帮你解决。
 <img width="979" alt="2FE88917-4440-481F-B19F-3EF17A1B7917" src="https://user-images.githubusercontent.com/61853980/110348750-efa01080-806c-11eb-8151-240bacb02abe.png">
 
 ## 感谢
