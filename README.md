@@ -12,7 +12,7 @@
 ## 使用前
 
 * 基于opencore 0.7.5
-* 支持到macOS Monterey 12.1
+* 支持到macOS Monterey 12.2.1
 * 支持七彩虹CVN-b460i
 * 支持Intel 10代CPU，UHD 630 GPU，免驱卡可用。
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改，重点是下面三个。
@@ -29,7 +29,7 @@
 * 使用DiskGenius读取烧录好的U盘，替换掉自带的EFI。
 * 启动项选U盘。
 * 先抹掉磁盘，格式化为APFS，然后安装，不出意外就没问题了。
-* 如果出现下图情况，很可能你插的是USB3，请使用USB2接口安装。经测试BigSur和Catalina都能正常安装，如果不行请更换不同版本的固件。
+* 如果出现下图情况，很可能你插的是USB3，请使用USB2接口安装。
 <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Big-Sur/macos-big-sur-startup-screen-prohibitory-sign.jpg" width="70%">
 
 ## 目前正常功能
@@ -37,7 +37,7 @@
 * WIFI正常（Intel AX200）
 * 蓝牙正常
 * 有线正常
-* HDMI & DP正常（主板上尽量只使用DP，HDMI有些问题，如果有解决方案，欢迎联系我。）
+* HDMI & DP正常（主板上尽量只使用DP，HDMI唤醒时会黑屏，如果有解决方案，欢迎联系我。[Alpha的Telegram](https://t.me/Alpha_TL)）
 * USB3正常
 ![截屏2021-07-18 下午1.08.05.png](https://i.loli.net/2021/07/18/dSLTXrFA6nYlWc3.png)
 * 核显硬件加速正常
@@ -68,4 +68,5 @@
 * 中文教程：[Xjn的博客](https://blog.xjn819.com/post/opencore-guide.html)
 * 中文文档 & kexts集合下载：[OpenCore中文文档](https://oc.skk.moe/)
 * 镜像下载 & 中文教程：[黑果小兵](http://blog.daliansky.net)
+* 镜像下载(英文)；[Dortania's Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 * 全网的黑苹果前辈
