@@ -18,6 +18,7 @@
 * 安装完成后，请下载Hackintool，运行并生成序列号等信息，最后在config中更改，重点是下面三个。
 ![68747470733a2f2f692e6c6f6c692e6e65742f323032312f30372f31382f77686f3242344a71766b694f366e452e706e67.png](https://i.loli.net/2021/07/18/nydmeVr9BMOXFNv.png)
 * 黑苹果不稳定，重要文件勤做备份！！！
+* 已经基本可以满足日常使用，如果不出现macOS或OC的重大更新，此EFI将不会更新，如果需要更新OC版本，可自行使用[OCAT](https://github.com/ic005k/OCAuxiliaryTools)进行更新。
 
 ## BIOS设置
 
